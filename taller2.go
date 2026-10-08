@@ -36,7 +36,7 @@ func main() {
 		votos[voto]++
 	}
 
-	fmt.Println("\nResultados:")
+	fmt.Println("Resultados:")
 
 	for actividad, cantidad := range votos {
 		fmt.Println(actividad, ":", cantidad, "votos")
